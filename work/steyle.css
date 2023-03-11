@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Tilt Warp', cursive;
+}
+body {
+    background-image: url(image/rbg.png);
+    color: white;
+}
+form.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 960px;
+    background: rgb(66, 66, 66);
+    width: 600px;
+    border-radius: 10px;
+}
+.textbox{
+    color: #fff;
+    width:90%;
+    height: 25px;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 5px;
+}
+.textbox:hover,
+.textbox:focus{
+    background: gray;
+    width: 580px;
+    color: white;
+}
+.sign{
+    width: 90%;
+    height: 25px;
+    border-radius: 5px;
+}
+.logo{
+    display:flex;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+}
+div.login{
+    border-radius: 5px;
+   
+}
